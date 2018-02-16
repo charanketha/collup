@@ -40,7 +40,7 @@
       </li>
     </ul>
     <span class="navbar-text">
-      {{ Auth::user()->name }}
+      Hello {{ Auth::user()->name }}
     </span>
   </div>
 </nav>
